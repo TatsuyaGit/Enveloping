@@ -1,0 +1,62 @@
+{
+  "domains": [
+    {
+      "second_level_domain": "*.figma.com",
+      "languages": [
+        {
+          "Lang_name": "Simplified Chinese",
+          "Main_name": "简体中文",
+          "code": "zh-cn",
+          "sort_order": 1,
+          "description": "最新简体中文语系",
+          "pages": [
+            {
+              "path": "/*",
+              "sort_order": 1,
+              "usage": "所有頁面翻譯",
+              "package_directory": "Figma_Simplified.csv",
+              "last_updated": "2025-05-01T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "Lang_name": "Traditional Chinese",
+          "Main_name": "繁體中文",
+          "code": "zh-tw",
+          "sort_order": 1,
+          "description": "繁體中文語系",
+          "pages": [
+            {
+              "path": "/*",
+              "sort_order": 1,
+              "usage": "所有頁面翻譯",
+              "package_directory": "Figma_Traditional.csv",
+              "last_updated": "2025-04-20T15:30:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "second_level_domain": "test.figma.com",
+      "languages": [
+        {
+          "Lang_name": "Simplified Chinese",
+          "Main_name": "繁體中文",
+          "code": "zh-tw",
+          "sort_order": 1,
+          "description": "最新繁体中文语系",
+          "pages": [
+            {
+              "path": "/*",
+              "sort_order": 1,
+              "usage": "所有頁面翻譯",
+              "package_directory": "Figma_Traditional.csv",
+              "last_updated": "2025-05-01T10:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
